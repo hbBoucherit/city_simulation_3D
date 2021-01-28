@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &75259318616215300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 75259318616215311}
+  - component: {fileID: 75259318616215296}
+  - component: {fileID: 75259318616215297}
+  - component: {fileID: 75259318616215298}
+  - component: {fileID: 75259318616215309}
+  m_Layer: 0
+  m_Name: City generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &75259318616215311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75259318616215300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 270, y: 0, z: 270}
+  m_LocalScale: {x: 70, y: 1, z: 70}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &75259318616215296
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75259318616215300}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &75259318616215297
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75259318616215300}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c764d932b1e19c243a006ba47113b705, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &75259318616215298
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75259318616215300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &75259318616215309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75259318616215300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981840ca73ace5840a6905deb6308d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildings:
+  - {fileID: 1899946360806954, guid: 7d569c6acdec3c2428d7b39889d89720, type: 3}
+  - {fileID: 1199332134306268, guid: 1e198ff9400b5064c816d8f779eff296, type: 3}
+  - {fileID: 1164899596817984, guid: ba33f5f0a254c9443956b40146028648, type: 3}
+  - {fileID: 1212380520111254, guid: 562df8355904213468a690c4ce6740b6, type: 3}
+  - {fileID: 1366119518019564, guid: 19427fc607e7e5645a1f1fe831d3add4, type: 3}
+  - {fileID: 1378370071209536, guid: a60988b24f8ff094ba511054edf48a9d, type: 3}
+  - {fileID: 2272877733908571220, guid: d90b9dd885ebed244a697557efbddad8, type: 3}
+  - {fileID: 3680107038005443681, guid: 62819a7b9b4114d409781de28d28b500, type: 3}
+  - {fileID: 5762314743804384186, guid: 0a4ecdffe7c0e054d994bb75eca9ba6b, type: 3}
+  - {fileID: 5632192995392535998, guid: 537ea6333fcc48245a4a1fd1225ea020, type: 3}
+  - {fileID: 5701205174899841377, guid: aac54668872815042b8ca41a1f610543, type: 3}
+  randomObjects:
+  - {fileID: 1060771982902304, guid: abc98a3329f924b4680c86edde08968d, type: 3}
+  - {fileID: 1879644038180034, guid: 3744e668ae9047e4b9590c326355161c, type: 3}
+  - {fileID: 1674700864803382, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
+  xstreets: {fileID: 2756017326496990467, guid: 6e376eca7e6ccbe4fabd2c15e2b79089,
+    type: 3}
+  zstreets: {fileID: 1555028364734068538, guid: 6193d4effb2213d4e92e662c1643f42e,
+    type: 3}
+  crossroads: {fileID: 3365921479466757677, guid: b65c7daa4cec09f4d8afa3b81becd098,
+    type: 3}
+  mapWidth: 20
+  mapHeight: 20
+  buildingFootprint: 30
+  surface: {fileID: 0}
+  human: {fileID: 0}
